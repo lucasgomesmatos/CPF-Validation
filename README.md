@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center" style="font-weight: bold;">CPF validator ✅</h1>
 
-## Getting Started
+![react](https://img.shields.io/badge/React-blue?style=flat&logo=react)
+![Underdevelopment](https://img.shields.io/badge/NextJs-black?style=flat&logo=react)
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+<p align="center">
+ <a href="#tech">Technologies</a> • 
+ <a href="#started">Getting Started</a> • 
+ <a href="#contribute">Contribute</a> •
+ <a href="#license">License</a>
+</p>
+
+<p align="center">
+<b>This application is a cpf validator for individuals, where users can check if their cpf is valid.</b>
+</p>
+
+<h2 id="tech">Technologies</h2>
+
+### Client:
+  Built using [React JS](https://react.dev/) and [Next JS](https://nextjs.org/), this interface and the layout ware made from scratch by me.
+
+
+<h2 id="started">🚀 Getting Started</h2>
+
+<h4> Prerequisites</h4>
+
+- Node 12
+- Git 
+
+<h4>Install project</h4>
+
+```
+git clone https://github.com/lucasgomesmatos/cpf-validation.git
+
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+<h4>Start server</h4>
 
-[http://localhost:3000/api/hello](http://localhost:3000/api/hello) is an endpoint that uses [Route Handlers](https://beta.nextjs.org/docs/routing/route-handlers). This endpoint can be edited in `app/api/hello/route.ts`.
+```
+  //in root
+  npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+<h2 id="contribute">👩‍💻 Contribute</h2>
 
-## Learn More
+If you want to contribute, clone this repo, create your work branch and get your hands dirty!
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+git clone https://github.com/lucasgomesmatos/cpf-validation.git
+git checkout -b feature/NAME
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+ At the end, open a Pull Request explaining the problem solved or feature made, if exists, append screenshot of visual modifications and wait for the review!
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+[How to create a Pull Request](https://www.atlassian.com/br/git/tutorials/making-a-pull-request)
 
-## Deploy on Vercel
+[Commit pattern](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<h2 id="license">📃 License</h2>
+
+This project is under [MIT](./.github/LICENSE) license
