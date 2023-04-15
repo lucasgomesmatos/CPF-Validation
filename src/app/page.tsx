@@ -1,10 +1,10 @@
 'use client';
 
+import { Footer } from '@/components/footer';
 import { Form } from '@/components/form';
-import { ResultCPF } from '@/components/ResultCPF';
+import { ResultCPF } from '@/components/resultCPF';
 import { calculateDigitVerifier } from '@/utils/calculateDigitVerifier';
 import { cleanCPF } from '@/utils/cleanCPF';
-import { GithubLogo, LinkedinLogo } from '@phosphor-icons/react';
 
 import { useEffect, useState } from 'react';
 
@@ -47,7 +47,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="bg-zinc-700 text-zinc-100 max-w-[1080px] mx-auto p-4 rounded-md mt-5">
+      <div className="bg-zinc-700 text-zinc-100 max-w-[1080px] mx-auto p-4 rounded-md mt-5 ">
         <p>
           O objetivo do validador de CPF é auxiliar a estudantes,
           desenvolvedores e analistas nos testes de software em desenvolvimento.
@@ -58,30 +58,7 @@ export default function Home() {
           de 11 dígitos dos quais os dois últimos são dídigos verificadores.
         </p>
       </div>
-      <div className="max-[640px]:flex-col flex gap-2 items-center justify-center w-full absolute bottom-1 text-center text-zinc-400 px-4">
-        <p className="text-sm max-[640px]:w-80">
-          {`© Todos os direitos reservados | feito com ❤️ por Lucas Gomes Matos
-          ${new Date().getFullYear()}.`}
-        </p>
-        <p className="hover:text-zinc-50 cursor-pointer">
-          <a
-            href="https://github.com/lucasgomesmatos"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <GithubLogo size={20} />
-          </a>
-        </p>
-        <p className="hover:text-zinc-50 cursor-pointer">
-          <a
-            href="https://www.linkedin.com/in/lucas-gomes-matos/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <LinkedinLogo size={20} />
-          </a>
-        </p>
-      </div>
+      <Footer />
     </main>
   );
 }
