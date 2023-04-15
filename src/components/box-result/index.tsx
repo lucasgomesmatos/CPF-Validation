@@ -1,10 +1,10 @@
 import { Info } from '@phosphor-icons/react';
 
-interface ResultCPFProps {
+interface BoxResultProps {
   validCPF: boolean;
 }
 
-export const ResultCPF = ({ validCPF }: ResultCPFProps) => {
+export const BoxResult = ({ validCPF }: BoxResultProps) => {
   return (
     <div>
       {validCPF ? (

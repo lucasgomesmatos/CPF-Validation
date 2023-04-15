@@ -1,8 +1,8 @@
 'use client';
 
+import { BoxResult } from '@/components/box-result';
 import { Footer } from '@/components/footer';
 import { Form } from '@/components/form';
-import { ResultCPF } from '@/components/resultCPF';
 import { calculateDigitVerifier } from '@/utils/calculateDigitVerifier';
 import { cleanCPF } from '@/utils/cleanCPF';
 
@@ -43,7 +43,7 @@ export default function Home() {
             handleOnChange={handleOnChange}
             handleOnSubmit={handleOnSubmit}
           />
-          {value.length === 14 && <ResultCPF validCPF={checkValidCPF} />}
+          {value.length === 14 && <BoxResult validCPF={checkValidCPF} />}
         </div>
       </div>
 
